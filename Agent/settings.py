@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-##d@ssy&3r81^f8cvonb31b4!0ar(&l6h@4jfhc*-@pbapxhxb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'lanfiaapi.herokuapp.com','192.168.1.67']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'donateur.herokuapp.com','192.168.1.67']
 
 
 # Application definition
@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'Agent.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd1c3nmvqaruhsl', 
-        'USER': 'uxrkuwpcpjweuj', 
-        'PASSWORD': 'bfc34bd222a7f98212e5c5c09113a3bca3001773d8a2619666c44d4cccc9ff65',
-        'HOST': 'ec2-44-206-214-233.compute-1.amazonaws.com', 
+        'NAME': 'd1lobidl7rnvo1', 
+        'USER': 'telrsnmurwugku', 
+        'PASSWORD': '95e644f122f9cfe873f35b089aac76da8f98357c49cad99b57f07635b2d1a71b',
+        'HOST': 'ec2-50-19-255-190.compute-1.amazonaws.com', 
         'PORT': '5432',
     }
 }
